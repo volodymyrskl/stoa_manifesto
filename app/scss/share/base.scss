@@ -1,0 +1,37 @@
+body {
+  font-size: 10px;
+}
+
+@for $d from 0 through 100 {
+  // Width
+  .w-#{$d} {
+    width: #{$d}rem;
+
+    &p {
+      width: percentage($d /100);
+
+      &-n > * {
+        width: percentage($d /100);
+      }
+    }
+
+    &-tb-#{$d} {
+      @media #{tablet} {
+        width: #{$d}rem;
+      }
+    }
+
+    &-mob {
+      @media #{mobile} {
+        width: #{$d}rem;
+      }
+    }
+  }
+
+  // Height
+  .h-#{$d} {
+    height: calc(#{$d}rem / 10);
+  }
+}
+
+

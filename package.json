@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Manifesto for Stoa BS",
   "main": "index.js",
+  "repository": "https://github.com/guidoocean/stoa_manifesto",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js --inspect --exec babel-node --presets es2015,stage-2",
@@ -31,6 +32,10 @@
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
-    "gulp-babel": "^8.0.0"
+    "browser-sync": "^2.26.3",
+    "gulp-babel": "^8.0.0",
+    "gulp-cache": "^1.1.1",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-nodemon": "^2.4.2"
   }
 }
