@@ -93,7 +93,13 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: Cannot find module '@babel/core'\n babel-loader@8 requires Babel 7.x (the package '@babel/core'). If you'd like to use Babel 6.x ('babel-core'), you should install 'babel-loader@7'.\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:668:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:591:27)\n    at Module.require (internal/modules/cjs/loader.js:723:19)\n    at require (/mnt/Work/Stoa BS Manifesto/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/mnt/Work/Stoa BS Manifesto/node_modules/babel-loader/lib/index.js:10:11)\n    at Module._compile (/mnt/Work/Stoa BS Manifesto/node_modules/v8-compile-cache/v8-compile-cache.js:178:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)\n    at Module.load (internal/modules/cjs/loader.js:685:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:620:12)\n    at Module.require (internal/modules/cjs/loader.js:723:19)\n    at require (/mnt/Work/Stoa BS Manifesto/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at loadLoader (/mnt/Work/Stoa BS Manifesto/node_modules/loader-runner/lib/loadLoader.js:18:17)\n    at iteratePitchingLoaders (/mnt/Work/Stoa BS Manifesto/node_modules/loader-runner/lib/LoaderRunner.js:169:2)\n    at runLoaders (/mnt/Work/Stoa BS Manifesto/node_modules/loader-runner/lib/LoaderRunner.js:365:2)\n    at NormalModule.doBuild (/mnt/Work/Stoa BS Manifesto/node_modules/webpack/lib/NormalModule.js:280:3)\n    at NormalModule.build (/mnt/Work/Stoa BS Manifesto/node_modules/webpack/lib/NormalModule.js:427:15)\n    at Compilation.buildModule (/mnt/Work/Stoa BS Manifesto/node_modules/webpack/lib/Compilation.js:635:10)\n    at factory.create (/mnt/Work/Stoa BS Manifesto/node_modules/webpack/lib/Compilation.js:884:14)\n    at factory (/mnt/Work/Stoa BS Manifesto/node_modules/webpack/lib/NormalModuleFactory.js:405:6)\n    at hooks.afterResolve.callAsync (/mnt/Work/Stoa BS Manifesto/node_modules/webpack/lib/NormalModuleFactory.js:155:13)\n    at AsyncSeriesWaterfallHook.eval [as callAsync] (eval at create (/mnt/Work/Stoa BS Manifesto/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at AsyncSeriesWaterfallHook.lazyCompileHook (/mnt/Work/Stoa BS Manifesto/node_modules/tapable/lib/Hook.js:154:20)\n    at resolver (/mnt/Work/Stoa BS Manifesto/node_modules/webpack/lib/NormalModuleFactory.js:138:29)\n    at process.nextTick (/mnt/Work/Stoa BS Manifesto/node_modules/webpack/lib/NormalModuleFactory.js:342:9)\n    at processTicksAndRejections (internal/process/task_queues.js:79:9)");
+var i = function i() {
+  data: {
+    test: 'test';
+  }
+
+  return 'test';
+};
 
 /***/ }),
 
