@@ -2,6 +2,24 @@ body {
   font-size: 10px;
 }
 
+.fl {
+  display: flex;
+  flex-flow: row wrap;
+
+  &_c {
+    flex-flow: column;
+  }
+
+  &_ac {
+    align-items: center;
+  }
+
+  &_jc {
+    justify-content: center;
+    
+  }
+}
+
 @for $d from 0 through 100 {
   // Width
   .w-#{$d} {
@@ -33,5 +51,3 @@ body {
     height: calc(#{$d}rem / 10);
   }
 }
-
-

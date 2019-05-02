@@ -5,37 +5,21 @@
   "main": "index.js",
   "repository": "https://github.com/guidoocean/stoa_manifesto",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js --inspect --exec babel-node --presets es2015,stage-2",
-    "prod": "nodemon index.js --exec babel-node --presets es2015,stage-2"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open",
+    "clear": "del-cli dist"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "fs": "0.0.1-security",
-    "autoprefixer": "^9.4.6",
-    "cssnano": "^4.1.8",
-    "gulp": "^4.0.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "http": "0.0.0",
-    "jade": "^1.11.0"
-  },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "browser-sync": "^2.26.3",
-    "gulp-babel": "^8.0.0",
-    "gulp-cache": "^1.1.1",
-    "gulp-minify-html": "^1.0.6",
-    "gulp-nodemon": "^2.4.2"
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "del-cli": "^1.1.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
   }
 }
