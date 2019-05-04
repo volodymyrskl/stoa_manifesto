@@ -4,12 +4,6 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPugPlugin = require('html-webpack-pug-plugin')
 
-module.exports = (env, argv) => {
-if (argv.mode === 'development') {}
- if (argv.mode === 'production') {}
-return config;
-}
-
 module.exports = {
   entry: [
     './app/js/front.js',
@@ -43,7 +37,7 @@ module.exports = {
         test: /\.pug/,
         loaders: [
           {
-            loader: 'html-loader'
+            loader: 'html-loader?attrs=false'
           },
           {
             loader: 'pug-html-loader',

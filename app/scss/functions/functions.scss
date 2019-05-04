@@ -45,19 +45,44 @@
       padding: calc(#{$i}rem / 10);
     }
   }
+
+  // Font Size
+
+  .fsz {
+    &-#{$i} {
+      font-size: calc(#{$i}rem / 10);
+    }
+  }
 }
 
-.m {
-  &-lr-a {
-    margin-left: auto;
-    margin-right: auto;
+@for $d from 0 through 100 {
+  // Width
+  .w-#{$d} {
+    width: #{$d}rem;
+
+    &p {
+      width: percentage($d /100);
+
+      &-n > * {
+        width: percentage($d /100);
+      }
+    }
+
+    &-tb-#{$d} {
+      @media #{tablet} {
+        width: #{$d}rem;
+      }
+    }
+
+    &-mob {
+      @media #{mobile} {
+        width: #{$d}rem;
+      }
+    }
   }
 
-  &-l-a {
-    margin-left: auto;
-  }
-
-  &-r-a {
-    margin-right: auto;
+  // Height
+  .h-#{$d} {
+    height: calc(#{$d}rem / 10);
   }
 }
