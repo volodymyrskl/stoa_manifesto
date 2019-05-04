@@ -98,19 +98,33 @@ var i = function i() {
     test: 'test';
   }
 
-  return 'test';
+  return data;
 };
+
+console.log(i);
+
+/***/ }),
+
+/***/ "./app/scss/style.scss":
+/*!*****************************!*\
+  !*** ./app/scss/style.scss ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
 /***/ 0:
-/*!*******************************!*\
-  !*** multi ./app/js/front.js ***!
-  \*******************************/
+/*!*****************************************************!*\
+  !*** multi ./app/js/front.js ./app/scss/style.scss ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./app/js/front.js */"./app/js/front.js");
+__webpack_require__(/*! ./app/js/front.js */"./app/js/front.js");
+module.exports = __webpack_require__(/*! ./app/scss/style.scss */"./app/scss/style.scss");
 
 
 /***/ })

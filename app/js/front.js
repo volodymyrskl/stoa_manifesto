@@ -2,5 +2,8 @@ let i = ()=> {
   data: {
     test: 'test'
   }
-  return 'test'
+
+  return data
 }
+
+console.log(i)
