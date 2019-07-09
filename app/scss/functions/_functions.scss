@@ -68,15 +68,27 @@
       }
     }
 
-    &-tb-#{$d} {
-      @media #{tablet} {
+    &-tb {
+      @media #{$tablet} {
         width: #{$d}rem;
+      }
+
+      &-p {
+        @media #{$tablet} {
+          width: percentage($d /100);
+        }
       }
     }
 
     &-mob {
-      @media #{mobile} {
+      @media #{$smartphone} {
         width: #{$d}rem;
+      }
+
+      &-p {
+        @media #{$smartphone} {
+          width: percentage($d /100);
+        }
       }
     }
   }
@@ -85,4 +97,17 @@
   .h-#{$d} {
     height: calc(#{$d}rem / 10);
   }
+}
+
+$z-index: (
+  default: 0,
+  modal: 100,
+);
+
+@function z-index($depth) {
+  @return map-get($z-index, $depth);
+}
+
+@mixin z-index($depth) {
+  z-index: z-index($depth);
 }

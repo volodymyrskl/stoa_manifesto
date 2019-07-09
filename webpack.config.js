@@ -12,6 +12,11 @@ module.exports = {
   output: {
     filename: './js/bundle.js'
   },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000
+  },
   devtool: 'source-map',
   module: {
     rules: [{
@@ -25,6 +30,19 @@ module.exports = {
             ]
           }
         }
+      },
+      { 
+        test: /\.(woff|woff2)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'css/fonts/',
+              publicPath: 'fonts/'
+            }
+          }
+        ]
       },
       {
         test: /\.scss$/,
@@ -42,7 +60,7 @@ module.exports = {
           {
             loader: 'pug-html-loader',
             options: {
-              pretty: true
+              minimize: true
             }
           }],
       }

@@ -1,3 +1,135 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans"), local("OpenSans"), url("fonts/Open Sans Regular.woff2") format("woff2"), url("fonts/Open Sans Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans Light"), local("OpenSans-Light"), url("fonts/Open Sans Light.woff2") format("woff2"), url("fonts/Open Sans Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("fonts/Open Sans Semi Bold.woff2") format("woff2"), url("fonts/Open Sans Semi Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("fonts/Open Sans Bold.woff2") format("woff2"), url("fonts/Open Sans Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans Black"), local("OpenSans-Extrabold"), url("fonts/Open Sans Black.woff2") format("woff2"), url("fonts/Open Sans Black.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans Italic"), local("OpenSans-Italic"), url("fonts/Open Sans Regular Italic.woff2") format("woff2"), url("fonts/Open Sans Regular Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"), url("fonts/Open Sans Light Italic.woff2") format("woff2"), url("fonts/Open Sans Light Italic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans Semibold Italic"), local("OpenSans-SemiboldItalic"), url("fonts/Open Sans Semi Bold Italic.woff2") format("woff2"), url("fonts/Open Sans Semi Bold Italic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url("fonts/Open Sans Bold Italic.woff2") format("woff2"), url("fonts/Open Sans Bold Italic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open Sans Black Italic"), local("OpenSans-ExtraboldItalic"), url("fonts/Open Sans Black Italic.woff2") format("woff2"), url("fonts/Open Sans Black Italic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans Cyrillic';
+  src: local("Open Sans Cyrillic"), local("OpenSansCyrillic"), url("fonts/Open Sans Cyrillic Regular.woff2") format("woff2"), url("fonts/Open Sans Cyrillic Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Cyrillic';
+  src: local("Open Sans Cyrillic Light"), local("OpenSansCyrillic-Light"), url("fonts/Open Sans Cyrillic Light.woff2") format("woff2"), url("fonts/Open Sans Cyrillic Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Cyrillic';
+  src: local("Open Sans Cyrillic Semibold"), local("OpenSansCyrillic-Semibold"), url("fonts/Open Sans Cyrillic Semi Bold.woff2") format("woff2"), url("fonts/Open Sans Cyrillic Semi Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans Cyrillic';
+  src: local("Open Sans Cyrillic Bold"), local("OpenSansCyrillic-Bold"), url("fonts/Open Sans Cyrillic Bold.woff2") format("woff2"), url("fonts/Open Sans Cyrillic Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans Cyrillic';
+  src: local("Open Sans Cyrillic Black"), local("OpenSansCyrillic-Extrabold"), url("fonts/Open Sans Cyrillic Black.woff2") format("woff2"), url("fonts/Open Sans Cyrillic Black.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans Cyrillic';
+  src: local("Open Sans Cyrillic Italic"), local("OpenSansCyrillic-Italic"), url("fonts/Open Sans Cyrillic Italic.woff2") format("woff2"), url("fonts/Open Sans Cyrillic Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans Cyrillic';
+  src: local("Open Sans Cyrillic Light Italic"), local("OpenSansLight-Italic"), url("fonts/Open Sans Cyrillic Light Italic.woff2") format("woff2"), url("fonts/Open Sans Cyrillic Light Italic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans Cyrillic';
+  src: local("Open Sans Cyrillic Semibold Italic"), local("OpenSansCyrillic-SemiboldItalic"), url("fonts/Open Sans Cyrillic Semi Bold Italic.woff2") format("woff2"), url("fonts/Open Sans Cyrillic Semi Bold Italic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open Sans Cyrillic';
+  src: local("Open Sans Cyrillic Bold Italic"), local("OpenSansCyrillic-BoldItalic"), url("fonts/Open Sans Cyrillic Bold Italic.woff2") format("woff2"), url("fonts/Open Sans Cyrillic Bold Italic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  unicode-range: U+000-5FF; }
+
+@font-face {
+  font-family: 'Open Sans Cyrillic';
+  src: local("Open Sans Cyrillic Black Italic"), local("OpenSansCyrillic-ExtraboldItalic"), url("fonts/Open Sans Cyrillic Black Italic.woff2") format("woff2"), url("fonts/Open Sans Cyrillic Black Italic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  unicode-range: U+000-5FF; }
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -61,6 +193,9 @@ table {
 .p-all-0 {
   padding: calc(0rem / 10); }
 
+.fsz-0 {
+  font-size: calc(0rem / 10); }
+
 .m-t-1 {
   margin-top: calc(1rem / 10); }
 
@@ -91,6 +226,9 @@ table {
 
 .p-all-1 {
   padding: calc(1rem / 10); }
+
+.fsz-1 {
+  font-size: calc(1rem / 10); }
 
 .m-t-2 {
   margin-top: calc(2rem / 10); }
@@ -123,6 +261,9 @@ table {
 .p-all-2 {
   padding: calc(2rem / 10); }
 
+.fsz-2 {
+  font-size: calc(2rem / 10); }
+
 .m-t-3 {
   margin-top: calc(3rem / 10); }
 
@@ -153,6 +294,9 @@ table {
 
 .p-all-3 {
   padding: calc(3rem / 10); }
+
+.fsz-3 {
+  font-size: calc(3rem / 10); }
 
 .m-t-4 {
   margin-top: calc(4rem / 10); }
@@ -185,6 +329,9 @@ table {
 .p-all-4 {
   padding: calc(4rem / 10); }
 
+.fsz-4 {
+  font-size: calc(4rem / 10); }
+
 .m-t-5 {
   margin-top: calc(5rem / 10); }
 
@@ -215,6 +362,9 @@ table {
 
 .p-all-5 {
   padding: calc(5rem / 10); }
+
+.fsz-5 {
+  font-size: calc(5rem / 10); }
 
 .m-t-6 {
   margin-top: calc(6rem / 10); }
@@ -247,6 +397,9 @@ table {
 .p-all-6 {
   padding: calc(6rem / 10); }
 
+.fsz-6 {
+  font-size: calc(6rem / 10); }
+
 .m-t-7 {
   margin-top: calc(7rem / 10); }
 
@@ -277,6 +430,9 @@ table {
 
 .p-all-7 {
   padding: calc(7rem / 10); }
+
+.fsz-7 {
+  font-size: calc(7rem / 10); }
 
 .m-t-8 {
   margin-top: calc(8rem / 10); }
@@ -309,6 +465,9 @@ table {
 .p-all-8 {
   padding: calc(8rem / 10); }
 
+.fsz-8 {
+  font-size: calc(8rem / 10); }
+
 .m-t-9 {
   margin-top: calc(9rem / 10); }
 
@@ -339,6 +498,9 @@ table {
 
 .p-all-9 {
   padding: calc(9rem / 10); }
+
+.fsz-9 {
+  font-size: calc(9rem / 10); }
 
 .m-t-10 {
   margin-top: calc(10rem / 10); }
@@ -371,6 +533,9 @@ table {
 .p-all-10 {
   padding: calc(10rem / 10); }
 
+.fsz-10 {
+  font-size: calc(10rem / 10); }
+
 .m-t-11 {
   margin-top: calc(11rem / 10); }
 
@@ -401,6 +566,9 @@ table {
 
 .p-all-11 {
   padding: calc(11rem / 10); }
+
+.fsz-11 {
+  font-size: calc(11rem / 10); }
 
 .m-t-12 {
   margin-top: calc(12rem / 10); }
@@ -433,6 +601,9 @@ table {
 .p-all-12 {
   padding: calc(12rem / 10); }
 
+.fsz-12 {
+  font-size: calc(12rem / 10); }
+
 .m-t-13 {
   margin-top: calc(13rem / 10); }
 
@@ -463,6 +634,9 @@ table {
 
 .p-all-13 {
   padding: calc(13rem / 10); }
+
+.fsz-13 {
+  font-size: calc(13rem / 10); }
 
 .m-t-14 {
   margin-top: calc(14rem / 10); }
@@ -495,6 +669,9 @@ table {
 .p-all-14 {
   padding: calc(14rem / 10); }
 
+.fsz-14 {
+  font-size: calc(14rem / 10); }
+
 .m-t-15 {
   margin-top: calc(15rem / 10); }
 
@@ -525,6 +702,9 @@ table {
 
 .p-all-15 {
   padding: calc(15rem / 10); }
+
+.fsz-15 {
+  font-size: calc(15rem / 10); }
 
 .m-t-16 {
   margin-top: calc(16rem / 10); }
@@ -557,6 +737,9 @@ table {
 .p-all-16 {
   padding: calc(16rem / 10); }
 
+.fsz-16 {
+  font-size: calc(16rem / 10); }
+
 .m-t-17 {
   margin-top: calc(17rem / 10); }
 
@@ -587,6 +770,9 @@ table {
 
 .p-all-17 {
   padding: calc(17rem / 10); }
+
+.fsz-17 {
+  font-size: calc(17rem / 10); }
 
 .m-t-18 {
   margin-top: calc(18rem / 10); }
@@ -619,6 +805,9 @@ table {
 .p-all-18 {
   padding: calc(18rem / 10); }
 
+.fsz-18 {
+  font-size: calc(18rem / 10); }
+
 .m-t-19 {
   margin-top: calc(19rem / 10); }
 
@@ -649,6 +838,9 @@ table {
 
 .p-all-19 {
   padding: calc(19rem / 10); }
+
+.fsz-19 {
+  font-size: calc(19rem / 10); }
 
 .m-t-20 {
   margin-top: calc(20rem / 10); }
@@ -681,6 +873,9 @@ table {
 .p-all-20 {
   padding: calc(20rem / 10); }
 
+.fsz-20 {
+  font-size: calc(20rem / 10); }
+
 .m-t-21 {
   margin-top: calc(21rem / 10); }
 
@@ -711,6 +906,9 @@ table {
 
 .p-all-21 {
   padding: calc(21rem / 10); }
+
+.fsz-21 {
+  font-size: calc(21rem / 10); }
 
 .m-t-22 {
   margin-top: calc(22rem / 10); }
@@ -743,6 +941,9 @@ table {
 .p-all-22 {
   padding: calc(22rem / 10); }
 
+.fsz-22 {
+  font-size: calc(22rem / 10); }
+
 .m-t-23 {
   margin-top: calc(23rem / 10); }
 
@@ -773,6 +974,9 @@ table {
 
 .p-all-23 {
   padding: calc(23rem / 10); }
+
+.fsz-23 {
+  font-size: calc(23rem / 10); }
 
 .m-t-24 {
   margin-top: calc(24rem / 10); }
@@ -805,6 +1009,9 @@ table {
 .p-all-24 {
   padding: calc(24rem / 10); }
 
+.fsz-24 {
+  font-size: calc(24rem / 10); }
+
 .m-t-25 {
   margin-top: calc(25rem / 10); }
 
@@ -835,6 +1042,9 @@ table {
 
 .p-all-25 {
   padding: calc(25rem / 10); }
+
+.fsz-25 {
+  font-size: calc(25rem / 10); }
 
 .m-t-26 {
   margin-top: calc(26rem / 10); }
@@ -867,6 +1077,9 @@ table {
 .p-all-26 {
   padding: calc(26rem / 10); }
 
+.fsz-26 {
+  font-size: calc(26rem / 10); }
+
 .m-t-27 {
   margin-top: calc(27rem / 10); }
 
@@ -897,6 +1110,9 @@ table {
 
 .p-all-27 {
   padding: calc(27rem / 10); }
+
+.fsz-27 {
+  font-size: calc(27rem / 10); }
 
 .m-t-28 {
   margin-top: calc(28rem / 10); }
@@ -929,6 +1145,9 @@ table {
 .p-all-28 {
   padding: calc(28rem / 10); }
 
+.fsz-28 {
+  font-size: calc(28rem / 10); }
+
 .m-t-29 {
   margin-top: calc(29rem / 10); }
 
@@ -959,6 +1178,9 @@ table {
 
 .p-all-29 {
   padding: calc(29rem / 10); }
+
+.fsz-29 {
+  font-size: calc(29rem / 10); }
 
 .m-t-30 {
   margin-top: calc(30rem / 10); }
@@ -991,6 +1213,9 @@ table {
 .p-all-30 {
   padding: calc(30rem / 10); }
 
+.fsz-30 {
+  font-size: calc(30rem / 10); }
+
 .m-t-31 {
   margin-top: calc(31rem / 10); }
 
@@ -1021,6 +1246,9 @@ table {
 
 .p-all-31 {
   padding: calc(31rem / 10); }
+
+.fsz-31 {
+  font-size: calc(31rem / 10); }
 
 .m-t-32 {
   margin-top: calc(32rem / 10); }
@@ -1053,6 +1281,9 @@ table {
 .p-all-32 {
   padding: calc(32rem / 10); }
 
+.fsz-32 {
+  font-size: calc(32rem / 10); }
+
 .m-t-33 {
   margin-top: calc(33rem / 10); }
 
@@ -1083,6 +1314,9 @@ table {
 
 .p-all-33 {
   padding: calc(33rem / 10); }
+
+.fsz-33 {
+  font-size: calc(33rem / 10); }
 
 .m-t-34 {
   margin-top: calc(34rem / 10); }
@@ -1115,6 +1349,9 @@ table {
 .p-all-34 {
   padding: calc(34rem / 10); }
 
+.fsz-34 {
+  font-size: calc(34rem / 10); }
+
 .m-t-35 {
   margin-top: calc(35rem / 10); }
 
@@ -1145,6 +1382,9 @@ table {
 
 .p-all-35 {
   padding: calc(35rem / 10); }
+
+.fsz-35 {
+  font-size: calc(35rem / 10); }
 
 .m-t-36 {
   margin-top: calc(36rem / 10); }
@@ -1177,6 +1417,9 @@ table {
 .p-all-36 {
   padding: calc(36rem / 10); }
 
+.fsz-36 {
+  font-size: calc(36rem / 10); }
+
 .m-t-37 {
   margin-top: calc(37rem / 10); }
 
@@ -1207,6 +1450,9 @@ table {
 
 .p-all-37 {
   padding: calc(37rem / 10); }
+
+.fsz-37 {
+  font-size: calc(37rem / 10); }
 
 .m-t-38 {
   margin-top: calc(38rem / 10); }
@@ -1239,6 +1485,9 @@ table {
 .p-all-38 {
   padding: calc(38rem / 10); }
 
+.fsz-38 {
+  font-size: calc(38rem / 10); }
+
 .m-t-39 {
   margin-top: calc(39rem / 10); }
 
@@ -1269,6 +1518,9 @@ table {
 
 .p-all-39 {
   padding: calc(39rem / 10); }
+
+.fsz-39 {
+  font-size: calc(39rem / 10); }
 
 .m-t-40 {
   margin-top: calc(40rem / 10); }
@@ -1301,6 +1553,9 @@ table {
 .p-all-40 {
   padding: calc(40rem / 10); }
 
+.fsz-40 {
+  font-size: calc(40rem / 10); }
+
 .m-t-41 {
   margin-top: calc(41rem / 10); }
 
@@ -1331,6 +1586,9 @@ table {
 
 .p-all-41 {
   padding: calc(41rem / 10); }
+
+.fsz-41 {
+  font-size: calc(41rem / 10); }
 
 .m-t-42 {
   margin-top: calc(42rem / 10); }
@@ -1363,6 +1621,9 @@ table {
 .p-all-42 {
   padding: calc(42rem / 10); }
 
+.fsz-42 {
+  font-size: calc(42rem / 10); }
+
 .m-t-43 {
   margin-top: calc(43rem / 10); }
 
@@ -1393,6 +1654,9 @@ table {
 
 .p-all-43 {
   padding: calc(43rem / 10); }
+
+.fsz-43 {
+  font-size: calc(43rem / 10); }
 
 .m-t-44 {
   margin-top: calc(44rem / 10); }
@@ -1425,6 +1689,9 @@ table {
 .p-all-44 {
   padding: calc(44rem / 10); }
 
+.fsz-44 {
+  font-size: calc(44rem / 10); }
+
 .m-t-45 {
   margin-top: calc(45rem / 10); }
 
@@ -1455,6 +1722,9 @@ table {
 
 .p-all-45 {
   padding: calc(45rem / 10); }
+
+.fsz-45 {
+  font-size: calc(45rem / 10); }
 
 .m-t-46 {
   margin-top: calc(46rem / 10); }
@@ -1487,6 +1757,9 @@ table {
 .p-all-46 {
   padding: calc(46rem / 10); }
 
+.fsz-46 {
+  font-size: calc(46rem / 10); }
+
 .m-t-47 {
   margin-top: calc(47rem / 10); }
 
@@ -1517,6 +1790,9 @@ table {
 
 .p-all-47 {
   padding: calc(47rem / 10); }
+
+.fsz-47 {
+  font-size: calc(47rem / 10); }
 
 .m-t-48 {
   margin-top: calc(48rem / 10); }
@@ -1549,6 +1825,9 @@ table {
 .p-all-48 {
   padding: calc(48rem / 10); }
 
+.fsz-48 {
+  font-size: calc(48rem / 10); }
+
 .m-t-49 {
   margin-top: calc(49rem / 10); }
 
@@ -1579,6 +1858,9 @@ table {
 
 .p-all-49 {
   padding: calc(49rem / 10); }
+
+.fsz-49 {
+  font-size: calc(49rem / 10); }
 
 .m-t-50 {
   margin-top: calc(50rem / 10); }
@@ -1611,28 +1893,8 @@ table {
 .p-all-50 {
   padding: calc(50rem / 10); }
 
-.m-lr-a {
-  margin-left: auto;
-  margin-right: auto; }
-
-.m-l-a {
-  margin-left: auto; }
-
-.m-r-a {
-  margin-right: auto; }
-
-body {
-  font-size: 10px; }
-
-.fl {
-  display: flex;
-  flex-flow: row wrap; }
-  .fl_c {
-    flex-flow: column; }
-  .fl_ac {
-    align-items: center; }
-  .fl_jc {
-    justify-content: center; }
+.fsz-50 {
+  font-size: calc(50rem / 10); }
 
 .w-0 {
   width: 0rem; }
@@ -3249,5 +3511,54 @@ body {
 
 .h-100 {
   height: calc(100rem / 10); }
+
+body {
+  font-size: 10px;
+  font-family: 'Open Sans'; }
+
+.d-flex {
+  display: flex; }
+
+.d-block {
+  display: block; }
+
+.d-inline {
+  display: inline; }
+
+.d-none {
+  display: none; }
+
+.flex {
+  display: flex; }
+  .flex-row {
+    flex-flow: row; }
+    .flex-row-wrap {
+      flex-flow: row wrap; }
+    .flex-row-reverse {
+      flex-flow: row-reverse; }
+  .flex-column {
+    flex-flow: column; }
+  .flex-start {
+    align-items: flex-start; }
+  .flex-center {
+    align-items: center; }
+  .flex-end {
+    align-items: flex-end; }
+  .flex-content-start {
+    justify-content: center; }
+  .flex-content-center {
+    justify-content: center; }
+  .flex-content-end {
+    justify-content: end; }
+
+.m-rl-a {
+  margin-left: auto;
+  margin-right: auto; }
+
+.m-l-a {
+  margin-left: auto; }
+
+.m-r-a {
+  margin-right: auto; }
 
 /*# sourceMappingURL=style.bundle.css.map*/

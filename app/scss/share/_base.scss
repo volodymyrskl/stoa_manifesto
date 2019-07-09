@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  line-height: 35px;
+  font-family: 'Open Sans Cyrillic';
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: normal;
+}
+
+.d {
+  &-flex {
+    display: flex;
+  }
+
+  &-block {
+    display: block;
+  }
+
+  &-inline {
+    display: inline;
+  }
+
+  &-none {
+    display: none;
+  }
+}
+
+.flex {
+  display: flex;
+
+  &-row {
+    flex-flow: row;
+
+    &-wrap {
+      flex-flow: row wrap;
+    }
+
+    &-reverse {
+      flex-flow: row-reverse;
+    }
+  }
+
+  &-column {
+    flex-flow: column;
+  }
+
+  &-start {
+    align-items: flex-start;
+  }
+
+  &-center {
+    align-items: center;
+  }
+
+  &-end {
+    align-items: flex-end;
+  }
+
+  &-content {
+    &-start {
+      justify-content: center;
+    }
+
+    &-center {
+      justify-content: center;
+    }
+
+    &-end {
+      justify-content: end;
+    }
+  }
+}
+
+
+.m {
+  &-rl-a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &-l-a {
+    margin-left: auto;
+  }
+
+  &-r-a {
+    margin-right: auto;
+  }
+}
+
+.text {
+  &-left {
+    text-align: left;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-right {
+    text-align: right;
+  }
+}

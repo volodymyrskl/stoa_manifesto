@@ -1,0 +1,95 @@
+@font-face { // Regular
+  font-family: 'Open Sans Cyrillic';
+  src: local('Open Sans Cyrillic'), local('OpenSansCyrillic'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Regular.woff2') format('woff2'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { // Light
+  font-family: 'Open Sans Cyrillic';
+  src: local('Open Sans Cyrillic Light'), local('OpenSansCyrillic-Light'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Light.woff2') format('woff2'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face { // Semibold
+  font-family: 'Open Sans Cyrillic';
+  src: local('Open Sans Cyrillic Semibold'), local('OpenSansCyrillic-Semibold'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Semi Bold.woff2') format('woff2'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Semi Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face { // Bold
+  font-family: 'Open Sans Cyrillic';
+  src: local('Open Sans Cyrillic Bold'), local('OpenSansCyrillic-Bold'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Bold.woff2') format('woff2'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  unicode-range: U+000-5FF;
+}
+
+@font-face { // Black
+  font-family: 'Open Sans Cyrillic';
+  src: local('Open Sans Cyrillic Black'), local('OpenSansCyrillic-Extrabold'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Black.woff2') format('woff2'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Black.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  unicode-range: U+000-5FF;
+}
+
+@font-face { // Italic
+  font-family: 'Open Sans Cyrillic';
+  src: local('Open Sans Cyrillic Italic'), local('OpenSansCyrillic-Italic'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Italic.woff2') format('woff2'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  unicode-range: U+000-5FF;
+}
+
+@font-face { // Light Italic
+  font-family: 'Open Sans Cyrillic';
+  src: local('Open Sans Cyrillic Light Italic'), local('OpenSansLight-Italic'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Light Italic.woff2') format('woff2'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Light Italic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  unicode-range: U+000-5FF;
+}
+
+@font-face { // Semibold Italic
+  font-family: 'Open Sans Cyrillic';
+  src: local('Open Sans Cyrillic Semibold Italic'), local('OpenSansCyrillic-SemiboldItalic'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Semi Bold Italic.woff2') format('woff2'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Semi Bold Italic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face { //Bold Italic
+  font-family: 'Open Sans Cyrillic';
+  src: local('Open Sans Cyrillic Bold Italic'), local('OpenSansCyrillic-BoldItalic'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Bold Italic.woff2') format('woff2'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Bold Italic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  unicode-range: U+000-5FF;
+}
+
+@font-face { // Extabold Italic
+  font-family: 'Open Sans Cyrillic';
+  src: local('Open Sans Cyrillic Black Italic'), local('OpenSansCyrillic-ExtraboldItalic'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Black Italic.woff2') format('woff2'),
+      url('./fonts/OpenSansCyrillic/Open Sans Cyrillic Black Italic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  unicode-range: U+000-5FF;
+}
