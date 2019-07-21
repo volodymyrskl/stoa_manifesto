@@ -2,7 +2,6 @@
   "name": "stoabs_manifesto",
   "version": "1.0.0",
   "description": "Manifesto for Stoa BS",
-  "main": "index.js",
   "repository": "https://github.com/guidoocean/stoa_manifesto",
   "scripts": {
     "dev": "webpack --mode development",
